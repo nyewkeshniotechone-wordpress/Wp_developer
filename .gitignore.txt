@@ -1,0 +1,15 @@
+# WordPress Core Files (આ ફાઇલ્સ GitHub પર નહીં જાય)
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+
+# Database Configuration (સુરક્ષા માટે)
+wp-config.php
+
+# Large Uploads (ફોટા અને વીડિયો)
+wp-content/uploads/
+
+# Temporary files
+*.log
+.htaccess
